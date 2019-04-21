@@ -23,36 +23,126 @@
 			]
 		},
 		{
-			"_type": "UMLModel",
-			"_id": "AAAAAAFnSO+oGo9/IDU=",
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAFqQD9w45nEOpc=",
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "CppReverse",
+			"name": "框架",
 			"ownedElements": [
 				{
-					"_type": "UMLPackageDiagram",
-					"_id": "AAAAAAFnSO+oqI+DbcQ=",
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAFqQD9w5JnFC1g=",
 					"_parent": {
-						"$ref": "AAAAAAFnSO+oGo9/IDU="
+						"$ref": "AAAAAAFqQD9w45nEOpc="
 					},
-					"name": "Package Structure"
-				},
-				{
-					"_type": "UMLClassDiagram",
-					"_id": "AAAAAAFnSO+o2o+Hd50=",
-					"_parent": {
-						"$ref": "AAAAAAFnSO+oGo9/IDU="
-					},
-					"name": "Type Hierarchy"
-				},
-				{
-					"_type": "UMLClassDiagram",
-					"_id": "AAAAAAFnSO+o9Y+LsOM=",
-					"_parent": {
-						"$ref": "AAAAAAFnSO+oGo9/IDU="
-					},
-					"name": "Overview"
+					"name": "软件框架",
+					"ownedViews": [
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAFqQEBpB5nLiMA=",
+							"_parent": {
+								"$ref": "AAAAAAFqQD9w5JnFC1g="
+							},
+							"fillColor": "#a7c299",
+							"font": "Arial;13;0",
+							"left": 304,
+							"top": 192,
+							"width": 129,
+							"height": 65
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFqQEIDY5nQQdo=",
+							"_parent": {
+								"$ref": "AAAAAAFqQD9w5JnFC1g="
+							},
+							"font": "Arial;13;0",
+							"left": 328,
+							"top": 208,
+							"width": 81,
+							"height": 25,
+							"text": "groupsock"
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAFqQEKOfpnZQkY=",
+							"_parent": {
+								"$ref": "AAAAAAFqQD9w5JnFC1g="
+							},
+							"fillColor": "#d0e4a9",
+							"font": "Arial;13;0",
+							"left": 464,
+							"top": 192,
+							"width": 169,
+							"height": 65
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFqQELeIpndl40=",
+							"_parent": {
+								"$ref": "AAAAAAFqQD9w5JnFC1g="
+							},
+							"font": "Arial;13;0",
+							"left": 472,
+							"top": 208,
+							"width": 152.34619140625,
+							"height": 32,
+							"text": "BasicUsageEnvironment"
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAFqQENvi5nlnC4=",
+							"_parent": {
+								"$ref": "AAAAAAFqQD9w5JnFC1g="
+							},
+							"fillColor": "#ffd00d",
+							"font": "Arial;13;0",
+							"left": 112,
+							"top": 192,
+							"width": 168,
+							"height": 64
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFqQEOLI5noeiM=",
+							"_parent": {
+								"$ref": "AAAAAAFqQD9w5JnFC1g="
+							},
+							"font": "Arial;13;0",
+							"left": 136,
+							"top": 208,
+							"width": 129,
+							"height": 32,
+							"text": "UsageEnvironment"
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAFqQERUvJnydmU=",
+							"_parent": {
+								"$ref": "AAAAAAFqQD9w5JnFC1g="
+							},
+							"fillColor": "#9597ca",
+							"font": "Arial;13;0",
+							"left": 112,
+							"top": 104,
+							"width": 521,
+							"height": 64
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFqQERnWZn1k7A=",
+							"_parent": {
+								"$ref": "AAAAAAFqQD9w5JnFC1g="
+							},
+							"font": "Arial;13;0",
+							"left": 328,
+							"top": 120,
+							"width": 65,
+							"height": 32,
+							"text": "liveMedia"
+						}
+					]
 				}
 			]
 		}
