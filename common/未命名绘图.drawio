@@ -1,11 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T03:09:22.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="RHzDoDAPWs1YROsGbWBX" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T03:57:58.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="jDxlz8LS5dVRzRpM22dP" version="21.1.2" type="github">
   <diagram name="第 1 页" id="v4MzIW0OC9OzDbAx6UIw">
-    <mxGraphModel dx="1050" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lxQ64VjgU-RyWVavI4Wj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z7ZPwanggYLaX_cD4WW2-1" target="lxQ64VjgU-RyWVavI4Wj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Z7ZPwanggYLaX_cD4WW2-1" value="注册SPI设备" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lxQ64VjgU-RyWVavI4Wj-1" value="1.注册网络节点&lt;br&gt;2. 关联网络节点和SPI节点&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="250" y="90" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lxQ64VjgU-RyWVavI4Wj-3" value="SPI的配置&lt;br&gt;时钟: 15MHZ&lt;br&gt;模式: SPI_MODE_0" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-30" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
